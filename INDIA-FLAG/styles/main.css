@@ -1,11 +1,3 @@
-html, body{
-
-}
-
-.container{
-
-}
-
 .container .flag{
     position: relative;
     margin: 20px auto;
@@ -23,7 +15,7 @@ html, body{
     width: 10px;
     left: -13px;
     top: 0;
-    background-color: #caa472;
+    background-image:linear-gradient(to right, #b88645 0px, #d5a667 5px, #b88645 10px);
 }
 
 .container .flag::after{
