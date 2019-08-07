@@ -1,0 +1,52 @@
+html, body{
+
+}
+
+.container{
+
+}
+
+.container .flag{
+    position: relative;
+    margin: 20px auto;
+    width: 270px;
+    height: 180px;
+    background-image:linear-gradient(to bottom, #FF9933 60px, #ffffff 60px, #ffffff 120px,  #138808 120px,  #138808 180px);
+    background-size: 270px 180px;
+    background-position: 0 0;
+}
+
+.container .flag::before{
+    position: absolute;
+    content: " ";
+    height: 500px;
+    width: 10px;
+    left: -13px;
+    top: 0;
+    background-color: #caa472;
+}
+
+.container .flag::after{
+    background-image: radial-gradient(circle at center, transparent 0, transparent 25px, #000080 25px, #000080 28px, #ffffff 28px, #ffffff 100%),
+    linear-gradient(to right, #000080, #000080), linear-gradient(to right, #000080, #000080),
+    linear-gradient(60deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px),
+    linear-gradient(-60deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px),
+    linear-gradient(30deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px),
+    linear-gradient(-30deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px),
+    linear-gradient(15deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px),
+    linear-gradient(-15deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px),
+    linear-gradient(75deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px),
+    linear-gradient(-75deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px),
+    linear-gradient(45deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px),
+    linear-gradient(-45deg, transparent 30px , #000080 30px, #000080 31px, transparent 31px);
+    background-size: 60px 60px, 2px 60px, 60px 2px, 60px 60px, 60px 60px, 60px 60px, 60px 60px, 60px 60px, 60px 60px, 60px 60px, 60px 60px, 60px 60px;
+    background-position: 0 0, 29px 0, 0 29px, 12px 0, -12px 0, 0 -12px, 0 -12px, 0 -6px, 0 -6px, 6px 0, -6px 0, 8px -9px, -8px -9px;
+    background-repeat: no-repeat;
+    content: " ";
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 60px;
+    left: 105px;
+    border-radius: 30px;
+}
